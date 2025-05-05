@@ -1,6 +1,6 @@
 <?php 
 
-$kon = mysqli_connect("localhost","root","","kwitansi",3308);
+$kon = mysqli_connect("localhost","root","","kwitansi");
 
 function query($query) {
     global $kon;
